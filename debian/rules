@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+%:
+	dh $@
+
+
+override_dh_install:
+	dh_testdir
+	dh_testroot
+	dh_prep  
+	dh_installdirs
+	cp pgstat $(CURDIR)/debian/pgstat/usr/bin/
+#	dh_installman pgstat.1
+

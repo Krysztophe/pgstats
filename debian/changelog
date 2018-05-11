@@ -1,0 +1,5 @@
+pgstat (1.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #901801)
+
+ -- Christophe Courtois <christophe.courtois@dalibo.com>  Fri, 11 May 2018 11:48:51 +0200

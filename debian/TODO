@@ -1,0 +1,11 @@
+TODO for Debian packaging
+
+- depends : zero?
+- build depends
+
+
+- remove useless binaries (we want only pgstat)
+
+- man page (add in dirs, add in rules) 
+
+- debian/watch

@@ -1,0 +1,18 @@
+Source: pgstat
+Maintainer: Christophe Courtois <christophe.courtois@dalibo.com>
+Section: database
+Priority: optional
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 10),
+ libpq-dev,
+ postgresql-server-dev-all
+Homepage: https://github.com/gleu/pgstats
+Vcs-Browser: https://github.com/gleu/pgstats
+Vcs-Git: https://github.com/gleu/pgstats.git
+
+Package: pgstat
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Collects PostgreSQL statistics the same way as a vmstat tool 
+ Gather statistical information from a PostgreSQL instance. Presentation is
+ inspired by vmstat.
